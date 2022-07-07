@@ -35,6 +35,7 @@ def get_sales_data():
 
     return sales_data
 
+
 def validate_data(values):
     """
     Inside the try, converts all string values into integers.
@@ -53,6 +54,7 @@ def validate_data(values):
 
     return True
 
+
 """
 For referance:
 def update_sales_worksheet(data):
@@ -61,7 +63,6 @@ def update_sales_worksheet(data):
     sales_worksheet = SHEET.worksheet("sales")
     sales_worksheet.append_row(data)
     print("Sales worksheet updated successfully.\n")
-
 
 def update_surplus_worksheet(data):
     Update surplus worksheet, add new row with the list data provided"
